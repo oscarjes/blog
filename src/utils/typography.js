@@ -18,6 +18,12 @@ noriegaTheme.overrideThemeStyles = () => ({
   },
   'h3, h1': {
     lineHeight: '1.3'
+  },
+  'img': {
+    borderRadius: '15px'
+  },
+  'span.gatsby-resp-image-background-image': {
+    borderRadius: '15px'
   }
 })
 
