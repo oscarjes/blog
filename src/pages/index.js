@@ -6,6 +6,7 @@ import Helmet from 'react-helmet'
 import Bio from '../components/Bio'
 import Layout from '../components/Layout'
 import { rhythm } from '../utils/typography'
+import SEO from '../components/SEO'
 
 class BlogIndex extends React.Component {
   render() {
@@ -17,6 +18,8 @@ class BlogIndex extends React.Component {
     const posts = get(this, 'props.data.allMarkdownRemark.edges')
 
     return (
+      <>
+      <SEO />
       <Layout location={this.props.location} title={siteTitle}>
         <Helmet
           htmlAttributes={{ lang: 'en' }}
@@ -46,6 +49,7 @@ class BlogIndex extends React.Component {
           )
         })}
       </Layout>
+      </>
     )
   }
 }

@@ -26,7 +26,7 @@ class Layout extends React.Component {
             }}
             to={'/'}
           >
-            {title}
+            Oscar Jesionek
           </Link>
         </h1>
       )
@@ -47,7 +47,7 @@ class Layout extends React.Component {
             }}
             to={'/'}
           >
-            {title}
+            Oscar Jesionek
           </Link>
         </h3>
       )

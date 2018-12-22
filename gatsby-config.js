@@ -1,9 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: 'Oscar Jesionek',
+    title: 'Blog',
+    titleTemplate: '%s · Oscar Jesionek',
     author: 'Oscar Jesionek',
     description: 'Oscar Jesionek is a marketing developer working remotely.',
     siteUrl: 'https://www.oscarjesionek.com',
+    image: '/social.png',
+    twitterUsername: '@oscarjesionek',
   },
   pathPrefix: '/gatsby-starter-blog',
   plugins: [

@@ -19,7 +19,7 @@ class BlogPostTemplate extends React.Component {
         <Helmet
           htmlAttributes={{ lang: 'en' }}
           meta={[{ name: 'description', content: siteDescription }]}
-          title={`${post.frontmatter.title} | ${siteTitle}`}
+          title={`${post.frontmatter.title} · Oscar Jesionek`}
         />
         <h1 style={{
           color: '#F25F5C',
