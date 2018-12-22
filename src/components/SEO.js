@@ -27,14 +27,14 @@ const SEO = ({ title, description, image, pathname, article }) => (
 
       return (
         <>
-          <Helmet title={seo.title} titleTemplate={titleTemplate}>
+          <Helmet title={seo.title} titleTemplate={titleTemplate} htmlAttributes={{ lang: 'en' }}>
             <meta name="description" content={seo.description} />
             <meta name="image" content={seo.image} />
             {seo.url && <meta property="og:url" content={seo.url} />}
             {(article ? true : null) && (
               <meta property="og:type" content="article" />
             )}
-            {seo.title && <meta property="og:title" content={seo.title} />}
+            {seo.title && <meta property="og:title" content={`${seo.title} · Oscar Jesionek`} />}
             {seo.description && (
               <meta property="og:description" content={seo.description} />
             )}
@@ -43,7 +43,7 @@ const SEO = ({ title, description, image, pathname, article }) => (
             {twitterUsername && (
               <meta name="twitter:creator" content={twitterUsername} />
             )}
-            {seo.title && <meta name="twitter:title" content={seo.title} />}
+            {seo.title && <meta name="twitter:title" content={`${seo.title} · Oscar Jesionek`} />}
             {seo.description && (
               <meta name="twitter:description" content={seo.description} />
             )}
