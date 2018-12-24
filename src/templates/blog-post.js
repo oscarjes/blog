@@ -13,13 +13,14 @@ class BlogPostTemplate extends React.Component {
     const post = this.props.data.markdownRemark
     const siteTitle = get(this.props, 'data.site.siteMetadata.title')
     const siteDescription = post.excerpt
-    const { previous, next } = this.props.pageContext
-
+    const { previous, next, slug } = this.props.pageContext
     return (
       <>
         <SEO 
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt || 'nothin’'}
+        article
+        pathname={slug}
         />
         <Layout location={this.props.location}>
           <h1
