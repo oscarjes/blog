@@ -6,13 +6,13 @@ noriegaTheme.overrideThemeStyles = () => ({
     boxShadow: 'none',
   },
   'body': {
-    backgroundColor: '#10171e'
+    backgroundColor: 'white'
   },
   'a': {
-    color: '#F25F5C'
+    color: '#551A8B'
   },
   'blockquote': {
-    color: '#8899a6',
+    color: '#334854',
     borderLeft: '0.32813rem solid #8899a6',
     paddingLeft: '1rem'
   },

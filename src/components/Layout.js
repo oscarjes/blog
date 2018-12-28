@@ -35,7 +35,7 @@ class Layout extends React.Component {
         <h3
           style={{
             marginTop: 0,
-            color: 'white'
+            color: '#333'
             // marginBottom: rhythm(-1),
           }}
         >
@@ -55,7 +55,7 @@ class Layout extends React.Component {
     return (
       <div
         style={{
-          color: 'white',
+          color: '#333',
           marginLeft: 'auto',
           marginRight: 'auto',
           maxWidth: rhythm(24),

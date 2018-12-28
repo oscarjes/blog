@@ -44,7 +44,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `UA-115301756-1`,
       },
     },
     `gatsby-plugin-feed`,
@@ -54,8 +54,8 @@ module.exports = {
         name: `Gatsby Starter Blog`,
         short_name: `GatsbyJS`,
         start_url: `/`,
-        background_color: `#ffffff`,
-        theme_color: `#663399`,
+        background_color: `white`,
+        theme_color: `#12339b`,
         display: `minimal-ui`,
         icon: `src/assets/oj-icon.png`,
       },
@@ -66,6 +66,12 @@ module.exports = {
       resolve: 'gatsby-plugin-typography',
       options: {
         pathToConfigModule: 'src/utils/typography',
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+        endpoint: 'https://jesionek.us12.list-manage.com/subscribe/post?u=2d86849e317a8361422e45f2d&amp;id=04d33f703e', // see instructions section below
       },
     },
   ],

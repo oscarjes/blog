@@ -31,6 +31,8 @@ The main obstacles I foresee are traveling days: I will be traveling to Bali, Au
 
 ### Follow along
 
-I’ll do daily posts on [Instagram](https://www.instagram.com/oscarjesionek/) and [Twitter](https://twitter.com/oscarjesionek/)  updating on my progress. Follow me there if you’re interested to see how it goes. I'll be using the *#oscars100daysofcode* hashtag to mark the posts.
+~~I’ll do daily posts on [Instagram](https://www.instagram.com/oscarjesionek/) and [Twitter](https://twitter.com/oscarjesionek/)  updating on my progress. Follow me there if you’re interested to see how it goes. I'll be using the *#oscars100daysofcode* hashtag to mark the posts.~~
+
+> I quickly got tired of spamming daily progress posts so instead you can check out this [Airtable spreadsheet](https://airtable.com/shrZwwdmaq3vLC0XZ/tblbR70hU52bKzQbQ) to see how it's going and what I'm working on.
 
 I’ll also do updates on this blog on days 30 and 60 as well as a retrospective after the 100 days are over.

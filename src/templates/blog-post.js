@@ -25,7 +25,7 @@ class BlogPostTemplate extends React.Component {
         <Layout location={this.props.location}>
           <h1
             style={{
-              color: '#F25F5C',
+              color: '#551A8B',
               textDecoration: 'underline',
               // marginBottom: '10px'
             }}
@@ -34,7 +34,7 @@ class BlogPostTemplate extends React.Component {
           </h1>
           <p
             style={{
-              color: '#8899a6',
+              color: '#334854',
               ...scale(-1 / 5),
               display: 'block',
               marginBottom: rhythm(1),
