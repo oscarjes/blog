@@ -96,10 +96,10 @@ class Bio extends React.Component {
               name="email"
               value={this.state.email}
               onChange={this._handleChange}
-              placeholder="Enter your email..."
+              placeholder="your@email.com"
               style={{
-                maxWidth: '220px',
-                width: '100%',
+                maxWidth: '250px',
+                width: 'calc(100% - 90px)',
                 border: 'none',
                 border: '1px solid #551A8B',
                 borderRadius: '5px 0 0 5px',
@@ -115,12 +115,10 @@ class Bio extends React.Component {
                 border: '1px solid #551A8B',
                 cursor: 'pointer',
                 borderRadius: '0 5px 5px 0',
-                // marginLeft: '15px',
-                // borderRadius: '5px',
                 fontSize: '1rem',
                 fontWeight: '300',
                 padding: '5px 10px',
-                height: '41px',
+                height: '40px',
               }}
               disabled={this.state.submitting}
             >
