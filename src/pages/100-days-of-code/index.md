@@ -3,6 +3,8 @@ title: 100 Days of Code (24.12.2018 - 03.04.2018)
 date: "2018-12-24T23:46:37.121Z"
 ---
 
+_33 day update added at the bottom of the post._
+
 Starting today, 24.12.2018 (🎅🏻), I’ll be doing the [100 Days of Code](https://www.100daysofcode.com/) challenge. It’s exactly what it sounds like: I’m committing to improving my coding skills for least 1hr a day continuously for the next 100 days.
 
 ### Why
@@ -36,3 +38,25 @@ The main obstacles I foresee are traveling days: I will be traveling to Bali, Au
 > I quickly got tired of spamming daily progress posts so instead you can check out this [Airtable spreadsheet](https://airtable.com/shrZwwdmaq3vLC0XZ/tblbR70hU52bKzQbQ) to see how it's going and what I'm working on.
 
 I’ll also do updates on this blog on days 30 and 60 as well as a retrospective after the 100 days are over.
+
+-----
+
+###Update after 33 days (26.01.2019)
+
+One-third of my 100 Days of Coding challenge is now over and my results have been mixed. As you can see in my [tracking spreadsheet](https://airtable.com/shrZwwdmaq3vLC0XZ/tblbR70hU52bKzQbQ), I started out strong. I had a consecutive streak of 14 days, where I often studied for more than the required 1hr daily.
+
+I stayed on track when it comes to the topics I was planning to focus on with two exceptions: I added Typescript and SQL as topics since I need them for a new project I'm tackling at work. 
+
+I had a major setback starting on January 10th, when I caught an ugly case of food poisoning while on Bali. I was in no shape to do any kind of coding or focused work.  
+
+That part is understandable but it also took me four days to get back to studying even after I was healthy again. Partly because I was focused on catching up on work but also because I had now lost momentum. I also missed another three days while on a work trip to Bangkok. 
+
+Basically, when other aspects of my life needed more attention (health, job), I found it hard to stay on track.
+
+During the first 33 days I:
+* Studied for 1hr+ on 20 out of 33 days (60%)
+* Spent a total of 23h20m studying
+
+These are not awful numbers and I’m glad I’m doing this challenge. 100 days are turning out to be longer than I thought and building the habit of studying daily will serve me well for a long time to come.
+
+During the next 33 days I’ll focus on being more consistent and not letting my plans fall apart when things get tough.
