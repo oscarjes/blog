@@ -7,6 +7,7 @@ import Bio from '../components/Bio'
 import Layout from '../components/Layout'
 import { rhythm, scale } from '../utils/typography'
 import SEO from '../components/SEO'
+import JustComments from '../components/JustComments'
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -77,6 +78,7 @@ class BlogPostTemplate extends React.Component {
               )}
             </li>
           </ul>
+          <JustComments />
         </Layout>
       </>
     )
