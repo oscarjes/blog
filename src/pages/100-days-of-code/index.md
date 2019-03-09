@@ -3,7 +3,7 @@ title: 100 Days of Code (24.12.2018 - 03.04.2018)
 date: "2018-12-24T23:46:37.121Z"
 ---
 
-_33 day update added at the bottom of the post._
+_33 & 63 day updates added at the bottom of the post._
 
 Starting today, 24.12.2018 (🎅🏻), I’ll be doing the [100 Days of Code](https://www.100daysofcode.com/) challenge. It’s exactly what it sounds like: I’m committing to improving my coding skills for least 1hr a day continuously for the next 100 days.
 
@@ -60,3 +60,19 @@ During the first 33 days I:
 These are not awful numbers and I’m glad I’m doing this challenge. 100 days are turning out to be longer than I thought and building the habit of studying daily will serve me well for a long time to come.
 
 During the next 33 days I’ll focus on being more consistent and not letting my plans fall apart when things get tough.
+
+-----
+
+###Update after 63 days (25.02.2019)
+
+I'm relatively happy with the 30 days since my last update. I had a very strong start and only stopped hitting my daily 1h goal in the last week, during my trip to Sydney. Just like during my previous trips to Bali and Bangkok, travel made it very hard to be consistent.
+
+During those 30 days I:
+* Studied for 1hr+ on 20 out of 30 days (67%)
+* Spent a total of 27h05m studying
+
+That said, **I have now decided to put the project on hold**. A new side-project opportunity came up and I will devote my time to that instead. I struggled with this decision a bit as I hate not sticking to my goals, which in this case would be completing the 100 days. 
+
+After putting some thought into it though, I realized that the end goal is not the learning itself - instead, it's getting the skills to build a great company down the road. So if I have the opportunity to go after a business idea right now, that should take precedence.
+
+Overall I'm happy with how the project turned out: I studied for nearly 50 hours during 63 days, in addition to all the learning I did in my day job.
