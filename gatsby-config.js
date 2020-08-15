@@ -3,7 +3,7 @@ module.exports = {
     title: 'Blog',
     titleTemplate: '%s · Oscar Jesionek',
     author: 'Oscar Jesionek',
-    description: 'Oscar Jesionek is a marketing developer working remotely.',
+    description: `My writing about building companies, learning new tech, barbell investing, and my search for crypto businesses that aren't scams.`,
     siteUrl: 'https://www.oscarjesionek.com',
     image: '/social.png',
     twitterUsername: '@oscarjesionek',
