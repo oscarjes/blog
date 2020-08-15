@@ -26,9 +26,7 @@ class BlogPostTemplate extends React.Component {
         <Layout location={this.props.location}>
           <h1
             style={{
-              color: '#551A8B',
-              textDecoration: 'underline',
-              // marginBottom: '10px'
+              color: '#1E2B39',
             }}
           >
             {post.frontmatter.title}
@@ -78,7 +76,7 @@ class BlogPostTemplate extends React.Component {
               )}
             </li>
           </ul>
-          <JustComments />
+          {/* <JustComments /> */}
         </Layout>
       </>
     )

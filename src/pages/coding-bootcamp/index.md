@@ -1,5 +1,5 @@
 ---
-title: How I fell in ❤️ with coding, attended a boot camp for $1k, and built a startup MVP
+title: How I fell in love with coding, attended a boot camp for $1k, and built a startup MVP
 date: "2017-09-26T23:46:37.121Z"
 ---
 

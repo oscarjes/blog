@@ -9,12 +9,15 @@ noriegaTheme.overrideThemeStyles = () => ({
     backgroundColor: 'white'
   },
   'a': {
-    color: '#551A8B'
+    color: '#1d2b36',
   },
   'blockquote': {
     color: '#334854',
     borderLeft: '0.32813rem solid #8899a6',
     paddingLeft: '1rem'
+  },
+  'p, span': {
+    color: '#1d2b36'
   },
   'h3, h1': {
     lineHeight: '1.3'

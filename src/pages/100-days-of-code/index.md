@@ -1,11 +1,11 @@
 ---
-title: 100 Days of Code (24.12.2018 - 03.04.2018)
+title: 100 Days of Code
 date: "2018-12-24T23:46:37.121Z"
 ---
 
 _33 & 63 day updates added at the bottom of the post._
 
-Starting today, 24.12.2018 (🎅🏻), I’ll be doing the [100 Days of Code](https://www.100daysofcode.com/) challenge. It’s exactly what it sounds like: I’m committing to improving my coding skills for least 1hr a day continuously for the next 100 days.
+Starting today, 24.12.2018, I’ll be doing the [100 Days of Code](https://www.100daysofcode.com/) challenge. It’s exactly what it sounds like: I’m committing to improving my coding skills for least 1hr a day continuously for the next 100 days.
 
 ### Why
 

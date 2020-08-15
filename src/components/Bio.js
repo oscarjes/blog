@@ -18,14 +18,14 @@ class Bio extends React.Component {
   }
 
   _handleSubmit = async event => {
-    this.setState({submitting: true})
+    this.setState({ submitting: true })
     console.log('_handlesubmit')
     event.preventDefault()
     const result = await addToMailchimp(this.state.email, this.state.listFields)
     this.setState({
       msg: result.msg,
       result: result.result,
-      submitting: false
+      submitting: false,
     })
   }
 
@@ -53,8 +53,13 @@ class Bio extends React.Component {
             }}
           />
           <p>
-            I'm a fullstack marketing developer working remotely from Europe and
-            Asia. Sign up below to get my posts delivered to your inbox.
+            I'm the founder of{' '}
+            <a href="https://fonos.vn" target="_blank">
+              Fonos
+            </a>. I write about building
+            companies, learning new tech, barbell investing, and my search for
+            crypto businesses that aren't scams. Sign up below to get my posts
+            delivered to your inbox.
           </p>
         </div>
         {this.state.result == 'error' && (
@@ -75,59 +80,58 @@ class Bio extends React.Component {
             <p style={{ fontWeight: '700' }}>{this.state.msg}</p>
           </div>
         ) : (
-<div
-          style={{
-            display: 'flex',
-            alignItems: 'center',
-            marginBottom: rhythm(2.5),
-            marginLeft: rhythm(2.5),
-          }}
-        >
-          <form
-            onSubmit={this._handleSubmit}
+          <div
             style={{
-              width: '100%',
+              display: 'flex',
+              alignItems: 'center',
+              marginBottom: rhythm(1.5),
+              marginLeft: rhythm(2.5),
             }}
           >
-            <input
-              id="email"
-              type="email"
-              required
-              name="email"
-              value={this.state.email}
-              onChange={this._handleChange}
-              placeholder="your@email.com"
+            <form
+              onSubmit={this._handleSubmit}
               style={{
-                maxWidth: '250px',
-                width: 'calc(100% - 90px)',
-                border: 'none',
-                border: '1px solid #551A8B',
-                borderRadius: '5px 0 0 5px',
-                padding: '5px',
+                width: '100%',
               }}
-            />
-            <button
-              type="submit"
-              value="Subscribe"
-              style={{
-                color: 'white',
-                backgroundColor: '#551A8B',
-                border: '1px solid #551A8B',
-                cursor: 'pointer',
-                borderRadius: '0 5px 5px 0',
-                fontSize: '1rem',
-                fontWeight: '300',
-                padding: '5px 10px',
-                height: '40px',
-              }}
-              disabled={this.state.submitting}
             >
-              Sign Up
-            </button>
-          </form>
-        </div>
+              <input
+                id="email"
+                type="email"
+                required
+                name="email"
+                value={this.state.email}
+                onChange={this._handleChange}
+                placeholder="your@email.com"
+                style={{
+                  maxWidth: '250px',
+                  width: 'calc(100% - 90px)',
+                  border: 'none',
+                  border: '1px solid #1d2b36',
+                  borderRadius: '5px 0 0 5px',
+                  padding: '5px 10px',
+                }}
+              />
+              <button
+                type="submit"
+                value="Subscribe"
+                style={{
+                  color: 'white',
+                  backgroundColor: '#1d2b36',
+                  border: '1px solid #1d2b36',
+                  cursor: 'pointer',
+                  borderRadius: '0 5px 5px 0',
+                  fontSize: '1rem',
+                  fontWeight: '300',
+                  padding: '5px 10px',
+                  height: '41px',
+                }}
+                disabled={this.state.submitting}
+              >
+                Sign Up
+              </button>
+            </form>
+          </div>
         )}
-        
       </>
     )
   }
