@@ -26,7 +26,7 @@
     "gatsby-transformer-sharp": "^2.5.13",
     "lodash": "^4.17.20",
     "node": "^12.18.3",
-    "prismjs": "^1.21.0",
+    "prismjs": "^1.24.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-helmet": "^5.2.1",
